@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: rgb(99, 165, 196);
+    position: relative;
+    background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/06/Animal-kingdom-dwellers-of-the-jungle-Desktop-backgrounds-free-download-for-windows-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    background-color: rgb(79, 142, 172);
+    font-size: 75px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 7px 6px rgb(0, 31, 66);
+    text-shadow: rgb(0, 31, 66) 3px 3px 3px;
+    color: rgb(216, 216, 216)
+}
+
+#randomizer-bttn {
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 35px;
+    box-shadow: 3px 2px 7px 2px rgb(0, 31, 66);
+    Color: #FFF;
+    background-color: #333;
+    text-shadow: rgb(177, 123, 123) 0 -1px 4px, #ff0 0 -2px 10px, #00d9ff 0 -10px 20px, red 0 -18px 40px;
+}
+
+#randomizer-bttn:hover {
+    background-color: rgb(255, 115, 0);
+    color: #333;
+    text-shadow: rgb(255, 255, 255) 0 -1px 4px, rgb(90, 79, 255) 0 -2px 10px, #ea00ff 0 -10px 20px, rgb(0, 255, 0) 0 -18px 40px;
+    cursor: pointer;
+}
+
+#animal-card {
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 45rem;
+    height: 23rem;
+    margin: auto;
+    margin-top: 45px;
+    display: block;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 6px rgb(0, 31, 66);
+}
+
+#animal-name {
+    text-align: center;
+    margin-top: -9px;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#animal-image {
+    display: block;
+    height: 21rem;
+    width: 21rem;
+    object-fit: cover;
+    margin-left: 3px;
+    margin-top: -11px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 0px 3px 3px rgb(105, 105, 105);
+}
+
+#animal-image:hover {
+    display: block;
+    height: 21rem;
+    width: 21rem;
+    object-fit: cover;
+    margin-left: 3px;
+    margin-top: -11px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+}
+
+#image-overlay {
+    display: block;
+    height: 21rem;
+    width: 21rem;
+    object-fit: cover;
+    margin-left: 3px;
+    margin-top: -11px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.animal-info {
+    width: 22rem;
+    overflow-wrap: break-word;
+    right: -23rem;
+    font-family: Arial;
+    position: relative;
+    font-size: 18px;
+    top: -21rem;
+}
+
+#hover-div {
+    background-color: black;
+    color:rgb(255, 251, 197);
+    font-style: italic;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande' sans-serif;
+    letter-spacing: .5px;
+    width: max-content;
+    position: relative;
+    top: -20rem;
+    right: -370px;
+    box-shadow: 0px 0px 7px 6px black;
+    border-radius: 4px;
+}
+
+
